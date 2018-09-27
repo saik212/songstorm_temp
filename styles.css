@@ -1,0 +1,76 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+}
+
+.wrapper > div:nth-child(odd) {
+    background: #ccc;
+}
+
+.wrapper > div:nth-child(even) {
+    background: #d3d3;
+}
+
+.wrapper > div {
+    padding: 1em;
+}
+
+
+/* Sidebar Left */
+
+.side-lt-wrapper {
+    display: grid;
+    grid-template-rows: 2fr 2fr 2fr;
+    grid-row-gap: 1em;
+}
+
+.side-lt-wrapper > div:nth-child(odd) {
+    background: rgb(107, 22, 146);
+}
+
+.side-lt-wrapper > div:nth-child(even) {
+    background: rgba(221, 51, 221, 0.2);
+}
+
+/* Content Center */
+
+.content-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+    grid-row-gap: 1em;
+}
+
+.content-wrapper > div:nth-child(odd) {
+    background: rgb(204, 204, 204);
+}
+
+.content-wrapper > div:nth-child(even) {
+    background: rgba(125, 51, 221, 0.2);
+}
+
+.content-wrapper > div {
+    padding: 1em;
+}
+
+/* Browse Wrapper */
+.browse-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 1em;
+    grid-column-gap: 1em;
+    padding-top: 3em;
+}
+
+.browse-wrapper > div {
+    padding: 2em 1em;
+}
+
+.browse-wrapper > div:nth-child(odd) {
+    background: rgb(8, 82, 85);
+}
+
+.browse-wrapper > div:nth-child(even) {
+    background: rgba(19, 46, 165, 0.2);
+}
