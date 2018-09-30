@@ -1,19 +1,19 @@
-.wrapper {
+.app-wrapper {
 	display: grid;
 	grid-template-columns: 1fr 4fr 1fr;
 	grid-column-gap: 1em;
 	grid-row-gap: 1em;
 }
 
-.wrapper > div:nth-child(odd) {
+.app-wrapper > div:nth-child(odd) {
 	background: #ccc;
 }
 
-.wrapper > div:nth-child(even) {
+.app-wrapper > div:nth-child(even) {
 	background: #d3d3;
 }
 
-.wrapper > div {
+.app-wrapper > div {
 	padding: 1em;
 }
 
